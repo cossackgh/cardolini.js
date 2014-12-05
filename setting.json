@@ -1,0 +1,505 @@
+{
+  "active": true,
+  "FROM": "cardolini.ru",
+  "version": "0.8",
+  "menu": [
+    {
+      "name": "Home",
+      "link": "/",
+      "sub": null
+    },
+    {
+      "name": "Создать",
+      "link": "#",
+      "sub": [
+        {
+          "name": "Визитки",
+          "link": "bcard.php?product=bcard",
+          "sub": null
+        },
+        {
+          "name": "Открытки",
+          "link": "bcard.php?product=postcard",
+          "sub": null
+        }
+      ]
+    },
+    {
+      "name": "Как это работает?",
+      "link": "hiw.html",
+      "sub": null
+    },
+    {
+      "name": "Техподдержка",
+      "link": "http://www.za-vod.ru/support-cardolini/",
+      "sub": null
+    }
+  ],
+  "Nameproduct": {
+    "bcard": {
+      "Title": "РЕДАКТОР ВИЗИТОК",
+      "shablon": "savedata/shablon/bcard/bcard-shablon.cardln",
+      "SizeMenu": [
+        {
+          "href": "bcard.php?product=vbcard",
+          "srcimage": "img/50x90.jpg"
+        },
+        {
+          "href": "bcard.php?product=bcard",
+          "srcimage": "img/90x50.jpg"
+        }
+      ],
+      "Dimension": {
+        "width": 800,
+        "height": 460,
+        "zoomkprint": 1.39,
+        "zoomkweb": 8.51,
+        "widthmm": 94,
+        "heightmm": 54
+      },
+	  "Settings": {
+	  "web": false,
+	  "printJPEG": true,
+	  "webJPEG": false,
+	  "printPDF": true
+	  },	  
+      "BG": [
+        {
+          "chapter": "Простые",
+          "ON": true,
+          "VIP": false,
+          "path": "images/bcard/bg/base/thmb/"
+        },
+        {
+          "chapter": "Текстуры",
+          "ON": true,
+          "VIP": false,
+          "path": "images/bcard/bg/patterns/thmb/"
+        },
+        {
+          "chapter": "Абстрактные",
+          "ON": true,
+          "VIP": false,
+          "path": "images/bcard/bg/abstract/thmb/"
+        },
+        {
+          "chapter": "Бизнес",
+          "ON": true,
+          "VIP": false,
+          "path": "images/bcard/bg/business/thmb/"
+        },
+        {
+          "chapter": "Дизайн",
+          "ON": true,
+          "VIP": false,
+          "path": "images/bcard/bg/design/thmb/"
+        }
+      ],
+      "Object": [
+        {
+          "chapter": "Разделители",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/divider/"
+        },
+        {
+          "chapter": "Уголки",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/corner/"
+        },
+        {
+          "chapter": "Рамки",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/frame/"
+        },
+        {
+          "chapter": "Иконки",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/icons/"
+        },
+        {
+          "chapter": "Объекты",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/object/"
+        },
+        {
+          "chapter": "Люди",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/people/"
+        },
+        {
+          "chapter": "Профессии",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/profession/"
+        },
+        {
+          "chapter": "Цветы",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/flower/"
+        }
+      ]
+    },
+    "vbcard": {
+      "Title": "РЕДАКТОР ВИЗИТОК",
+      "shablon": "savedata/shablon/vbcard/vbcard-shablon.cardln",
+      "SizeMenu": [
+        {
+          "href": "bcard.php?product=bcard",
+          "srcimage": "img/90x50.jpg"
+        },
+        {
+          "href": "bcard.php?product=vbcard",
+          "srcimage": "img/50x90.jpg"
+        }
+      ],
+      "Dimension": {
+        "width": 460,
+        "height": 800,
+        "zoomkprint": 1.39,
+        "zoomkweb": 8.51,
+        "widthmm": 54,
+        "heightmm": 94
+      },
+	  "Settings": {
+	  "web": false,
+	  "printJPEG": true,
+	  "webJPEG": false,
+	  "printPDF": true
+	  },	  
+      "BG": [
+        {
+          "chapter": "Простые",
+          "ON": true,
+          "VIP": false,
+          "path": "images/vbcard/bg/base/thmb/"
+        },
+        {
+          "chapter": "Этикетки",
+          "ON": true,
+          "VIP": false,
+          "path": "images/vbcard/bg/lables/thmb/"
+        },
+        {
+          "chapter": "Текстуры",
+          "ON": true,
+          "VIP": false,
+          "path": "images/vbcard/bg/patterns/thmb/"
+        },
+        {
+          "chapter": "Абстрактные",
+          "ON": true,
+          "VIP": false,
+          "path": "images/vbcard/bg/abstract/thmb/"
+        },
+        {
+          "chapter": "Бизнес",
+          "ON": true,
+          "VIP": false,
+          "path": "images/vbcard/bg/business/thmb/"
+        },
+        {
+          "chapter": "Дизайн",
+          "ON": true,
+          "VIP": false,
+          "path": "images/vbcard/bg/design/thmb/"
+        }
+      ],
+      "Object": [
+        {
+          "chapter": "Разделители",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/divider/"
+        },
+        {
+          "chapter": "Уголки",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/corner/"
+        },
+        {
+          "chapter": "Рамки",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/frame/"
+        },
+        {
+          "chapter": "Иконки",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/icons/"
+        },
+        {
+          "chapter": "Объекты",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/object/"
+        },
+        {
+          "chapter": "Люди",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/people/"
+        },
+        {
+          "chapter": "Цветы",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/flower/"
+        }
+      ]
+    },
+    "postcard": {
+      "Title": "РЕДАКТОР ОТКРЫТОК",
+      "shablon": "savedata/shablon/postcard/postcard-shablon.cardln",
+      "SizeMenu": [
+        {
+          "href": "bcard.php?product=web600x400",
+          "srcimage": "img/web600x400.jpg"
+        },
+        {
+          "href": "bcard.php?product=postcard",
+          "srcimage": "img/150x100.jpg"
+        }
+      ],
+      "Dimension": {
+        "width": 800,
+        "height": 540,
+        "zoomkprint": 2.28,
+        "zoomkweb": 5.195,
+        "widthmm": 154,
+        "heightmm": 104
+      },
+	  "Settings": {
+	  "web": false,
+	  "printJPEG": true,
+	  "webJPEG": false,
+	  "printPDF": true
+	  },	  
+      "BG": [
+        {
+          "chapter": "Новый год",
+          "ON": true,
+          "VIP": false,
+          "path": "images/postcard/bg/new-year/thmb/"
+        },
+        {
+          "chapter": "День Валентина",
+          "ON": true,
+          "VIP": false,
+          "path": "images/postcard/bg/valentine/thmb/"
+        },
+        {
+          "chapter": "День рождения",
+          "ON": true,
+          "VIP": false,
+          "path": "images/postcard/bg/birthday/thmb/"
+        },
+        {
+          "chapter": "Свадьба",
+          "ON": true,
+          "VIP": false,
+          "path": "images/postcard/bg/wedding/thmb/"
+        },
+        {
+          "chapter": "Простые",
+          "ON": true,
+          "VIP": false,
+          "path": "images/postcard/bg/base/thmb/"
+        },
+        {
+          "chapter": "Винтаж",
+          "ON": true,
+          "VIP": false,
+          "path": "images/postcard/bg/vintage/thmb/"
+        },		
+        {
+          "chapter": "Хеллоуин",
+          "ON": true,
+          "VIP": false,
+          "path": "images/postcard/bg/helloween/thmb/"
+        }
+      ],
+      "Object": [
+        {
+          "chapter": "Новый год",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/xmass/"
+        },
+        {
+          "chapter": "Разделители",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/divider/"
+        },
+        {
+          "chapter": "Уголки",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/corner/"
+        },
+        {
+          "chapter": "Рамки",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/frame/"
+        },
+        {
+          "chapter": "Иконки",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/icons/"
+        },
+        {
+          "chapter": "Объекты",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/object/"
+        },
+        {
+          "chapter": "Люди",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/people/"
+        },
+        {
+          "chapter": "Цветы",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/flower/"
+        },
+        {
+          "chapter": "Halloween",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/helloween/"
+        }
+      ]
+    },
+    "web600x400": {
+      "shablon": "savedata/shablon/web600x400/web600x400-shablon.cardln",
+      "Title": "РЕДАКТОР ОТКРЫТОК",
+      "SizeMenu": [
+        {
+          "href": "bcard.php?product=web600x400&reloadpage=false",
+          "srcimage": "img/web600x400.jpg"
+        },
+        {
+          "href": "bcard.php?product=postcard&reloadpage=false",
+          "srcimage": "img/150x100.jpg"
+        }
+      ],
+      "Dimension": {
+        "width": 800,
+        "height": 540,
+        "zoomkprint": 2.28,
+        "zoomkweb": 1,
+        "widthmm": 154,
+        "heightmm": 104
+      },
+	  "Settings": {
+	  "web": true,
+	  "printJPEG": false,
+	  "webJPEG": true,
+	  "printPDF": false
+	  },
+      "Object": [
+        {
+          "chapter": "Новый год",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/xmass/"
+        },	  
+        {
+          "chapter": "Разделители",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/divider/"
+        },
+        {
+          "chapter": "Уголки",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/corner/"
+        },
+        {
+          "chapter": "Рамки",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/frame/"
+        },
+        {
+          "chapter": "Иконки",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/icons/"
+        },
+        {
+          "chapter": "Объекты",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/object/"
+        },
+        {
+          "chapter": "Люди",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/people/"
+        },
+        {
+          "chapter": "Профессии",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/profession/"
+        },
+        {
+          "chapter": "Цветы",
+          "ON": true,
+          "VIP": false,
+          "path": "images/elements/flower/"
+        }
+      ],
+      "BG": [
+        {
+          "chapter": "Новый год",
+          "ON": true,
+          "VIP": false,
+          "path": "images/postcard/bg/new-year/thmb/"
+        },	  
+        {
+          "chapter": "День рождения",
+          "ON": true,
+          "VIP": false,
+          "path": "images/postcard/bg/birthday/thmb/"
+        },		
+        {
+          "chapter": "Простые",
+          "ON": true,
+          "VIP": false,
+          "path": "images/postcard/bg/base/thmb/"
+        },
+        {
+          "chapter": "Винтаж",
+          "ON": true,
+          "VIP": false,
+          "path": "images/postcard/bg/vintage/thmb/"
+        },
+        {
+          "chapter": "Текстуры",
+          "ON": true,
+          "VIP": false,
+          "path": "images/bcard/bg/patterns/thmb/"
+        }
+      ]
+    }
+  },
+  "complete": true
+}
