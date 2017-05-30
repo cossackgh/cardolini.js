@@ -1,4 +1,4 @@
 cardolini.js
 ============
-Workflow for CArdolini.ru
+Workflow for Cardolini.ru
 Base library on-line editor Cardolini.ru
